@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="PE-Tracker">
+        <h1 class="title">Personal Expense Tracker</h1>
+    </header>
+
+    <main>  
+
+        <div class="form">
+
+            <form class="PE-form">
+
+                <label for="expense">Expense</label><br>
+                <input 
+                type="text" 
+                name="expense"
+                id="expense" 
+                placeholder="Enter your expense" required>
+                <br><br>
+
+                <label for="description">Description</label><br>
+                <textarea 
+                name="description" 
+                id="description"
+                rows="5"
+                cols="30"></textarea>
+                <br><br>
+
+                <label for="amount">Amount</label><br>
+                <input 
+                type="number" 
+                id="amount" 
+                name="amount"
+                required>
+                <br><br>
+
+                <label for="date">Date</label><br>
+                <input 
+                type="date" 
+                id="date" 
+                name="date" 
+                required>
+                <br><br>
+
+                <label for="category">Category</label><br>
+                <select name="category" id="category" required>
+                    <option value="" disabled selected>Select a Category</option>
+                    <option value="food">Food</option>
+                    <option value="transport">Transport</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="bills">Bills</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <button type="submit" class="btn">Add</button>
+
+            </form>
+
+        </div>
+
+        <div class="expense-list">
+            <h2>Your Expenses</h2>
+            <p class="total">Total: 0</p>
+
+            <div class="expenses">
+
+                <!--Expenses will be added here in JavaScript-->
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
