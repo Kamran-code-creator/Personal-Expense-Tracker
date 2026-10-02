@@ -30,7 +30,7 @@ This product help users track their daily, weekly, monthly or even yearly expens
 
 This product is specifically for employees who are working in government or private sector but other individuals can also use it if it works for them.
 
-# Final Note
+# 5. Final Note
 
 This can be a good product for you, if you are struggling with managing your expenses.
 
