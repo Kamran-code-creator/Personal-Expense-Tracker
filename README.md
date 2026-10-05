@@ -20,7 +20,7 @@ I built a PERSONAL EXPENSE TRACKER to help my father and other employees to mana
 
 This product help users track their daily, weekly, monthly or even yearly expenses so that they can manage their things well and get themselves a comfortable living standards.
 
-# 3. Skills I used:
+# 3. Technologies:
 
 - HTML
 - CSS
